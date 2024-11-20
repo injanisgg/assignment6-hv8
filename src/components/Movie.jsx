@@ -4,7 +4,7 @@ function Movie({ movies }) {
 
   return (
     <>
-    <div className='container mt-5 d-flex flex-column justify-content-center'>
+    <div className='container d-flex flex-column justify-content-center'>
         <div className='row'>
             {movies.map(item => (
                 <div key={item.imdbID} className='col-md-3 mb-4'>
